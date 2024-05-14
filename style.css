@@ -1,6 +1,6 @@
 :root {
-    --cor-primaria: #3498db; /* Cor principal */
-    --cor-secundaria: #2ecc71; /* Cor secundária */
+    --cor-primaria: #1dbd38; /* Cor principal */
+    --cor-secundaria: #10be7c; /* Cor secundária */
     --fonte-principal: 'Roboto', sans-serif; /* Fonte principal */
 }
 
@@ -204,4 +204,11 @@ footer {
     
     .whatsapp-btn img {
     width: 70%; /* Tamanho do ícone do WhatsApp */
+    }
+    .titulo-principal{
+        font-size: 500%;
+        font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     }
