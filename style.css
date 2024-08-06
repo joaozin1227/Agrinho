@@ -22,11 +22,22 @@ header {
     text-align: center;
 }
 .logo {
-    width: 100px; /* Defina a largura desejada para o logotipo */
-    height: auto; /* Isso garante que a proporção da imagem seja mantida */
-    display: block; /* Isso remove qualquer espaço extra ao redor da imagem */
-    float: left; /* Isso alinha a imagem à esquerda */
-    margin-right: 20px; /* Adiciona um espaçamento à direita da imagem */
+    width: 100px; 
+    height: auto; 
+    display: block; 
+    float: left; 
+    margin-right: 20px; 
+}
+
+.titulo-02{
+    text-align: center;
+}
+
+.conteudo-paginas{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    text-indent: 2em;
 }
 
 
@@ -103,6 +114,30 @@ section {
 main {
     padding: 20px 0;
 }
+.main-conteudo{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    width: 95%;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#imagem-1{
+    height: auto;
+}
+
+#imagem-2{
+    height: 220px;
+}
+
+#reciclando{
+    height: 205px;
+    width: 600px;
+}
+
 
 section {
     margin-bottom: 20px;
@@ -184,6 +219,18 @@ footer {
     .content .gallery img {
         width: 100%;
     }
+
+    .titulo-principal {
+        font-size: 1em;
+    }
+
+    .button {
+        padding: 8px 12px;
+    }
+
+    .whatsapp-btn img {
+        width: 30px;
+    }
 }
 
 
@@ -208,17 +255,11 @@ footer {
     .titulo-principal{
         font-size: 500%;
         font-family: "Jaro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
     }
 
-    #produtos-eco{
-        height: 290px;
-        width: 600px;
-    }
+    
 
-    #reciclando{
-        height: 290px;
-        width: 600px;
-    }
+   
