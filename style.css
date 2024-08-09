@@ -213,6 +213,10 @@ footer {
     .content .gallery img {
         width: calc(50% - 10px);
     }
+
+    .paginaalternativa {
+        max-width: 280px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -226,6 +230,10 @@ footer {
 
     .button {
         padding: 8px 12px;
+    }
+
+    .paginaalternativa {
+        max-width: 240px;
     }
 
     .whatsapp-btn img {
@@ -259,13 +267,14 @@ footer {
         font-weight: 400;
         font-style: normal;
     }
-    .pagina1
+    .paginaalternativa
     {
-        width:330px ;
-        height:360px ;
-        align-items: center;
-        display: flex;
-        justify-content: center;
+        max-width: 330px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        border-radius: 15%;
     }
 
     
